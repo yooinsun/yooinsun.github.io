@@ -1,5 +1,4 @@
-url:"https://github.com/yooinsun/yooinsun.github.io"
-baseurl: '/'
+baseurl: 'https://github.com/yooinsun/yooinsun.github.io'
 permalink: pretty
 title: 'Sunny Blog'
 
