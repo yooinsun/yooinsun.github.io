@@ -1,52 +1,67 @@
 baseurl: "https://yooinsun.github.io/"
-permalink: pretty
-title: 'Sunny Blog'
-
-google_analytics_id: ""
-
-homepage:
-  show_call_box: true
-
-logo:
-  mobile: "images/logo/logo-mobile.svg"
-  desktop: "images/logo/logo.svg"
-  desktop_height: "36px"
-
-footer:
-  copyright_text: 'Free Jekyll theme by <a class="zerostatic" href="https://www.zerostatic.io">www.zerostatic.io</a>'
-
-seo:
-  meta_og_title: "Jekyll Serif Theme"
-  meta_og_type: "website"
-  meta_og_url: "https://jekyll-serif.netlify.app"
-  meta_og_image: "https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/screenshots/tn.png"
-  meta_og_description: "Jekyll Serif is a modern business theme for Hugo. It contains content types for the archetypical business website. The theme is fully responsive, blazing fast and artfully illustrated."
-  meta_twitter_card: "summary"
-  meta_twitter_site: "@zerostaticio"
-  meta_twitter_creator: "@zerostaticio"
-
-collections:
-  services:
-    output: true
-  team:
-    output: true
-
+title: "Stackbit Fresh Theme"
+init_js: "js/init.js"
+page_load_js: "js/page-load.js"
+page_unload_js: "js/page-unload.js"
+params:
+  layout_style: overflow
+  palette: blue
+  header:
+    title: "Stackbit Fresh"
+    tagline: Header Tagline
+    profile_img: images/avatar.png
+    profile_img_alt: Author avatar
+    background: dark
+    has_nav: true
+    nav_links:
+      - label: Home
+        url: /
+        style: link
+      - label: Blog
+        url: /blog/
+        style: link
+      - label: Style Guide
+        url: /style-guide/
+        style: link
+      - label: About
+        url: /about/
+        style: link
+      - label: Contact
+        url: /contact/
+        style: link
+    has_social: true
+    social_links:
+      - label: Twitter
+        url: https://twitter.com/
+        style: icon
+        icon_class: twitter
+        new_window: true
+      - label: Instagram
+        url: https://www.instagram.com/
+        style: icon
+        icon_class: instagram
+        new_window: true
+      - label: GitHub
+        url: https://github.com/
+        style: icon
+        icon_class: github
+        new_window: true
+      - label: LinkedIn
+        url: https://www.linkedin.com/
+        style: icon
+        icon_class: linkedin
+        new_window: true
+      - label: DEV
+        url: https://dev.to/
+        style: icon
+        icon_class: dev
+        new_window: true
+  footer:
+    content: >-
+      &copy; Stackbit. All rights reserved. This Jamstack site was created with <a href="https://www.stackbit.com/?utm_source=deployed-footer" target="_blank" rel="noopener">Stackbit</a>. Create yours <a href="https://app.stackbit.com/create?theme=fresh&utm_source=deployed-footer" target="_blank" rel="noopener">now</a>
 sass:
+  input_file: sass/main.scss
+  output_file: css/main.css
   indentWidth: 4
-  style: compact # possible values: nested expanded compact compressed
+  outputStyle: nested
   precision: 10
-
-plugins:
-  - jekyll-environment-variables
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - LICENSE.md
-  - LICENSE
-  - README.md
