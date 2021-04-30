@@ -2,6 +2,12 @@
 title: "Welcome to Jekyll!"
 date: 2017-10-20 08:26:28 -0400
 categories: jekyll update
+header:
+  teaser: "assets/images/markup-syntax-highlighting-teaser.jpg"
+tags: 
+  - code
+  - syntax highlighting
+toc: true
 ---
 ### Test1
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
@@ -10,7 +16,7 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
-## Test2
+### Test2
 
 ​```python
 def print_hi(name):
@@ -18,7 +24,7 @@ def print_hi(name):
 print_hi('Tom')
 ​```
 
-# Test3
+### Test3
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
