@@ -1,1 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-19T13:52:30+09:00</updated><id>/feed.xml</id><title type="html">Sunny Blog</title><subtitle>An amazing website.</subtitle><author><name>유인선</name><email>yellowranger0904@gmail.com</email></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-19T14:31:14+09:00</updated><id>/feed.xml</id><title type="html">Sunny Blog</title><subtitle>An amazing website.</subtitle><author><name>유인선</name><email>yellowranger0904@gmail.com</email></author><entry><title type="html">test</title><link href="/test/" rel="alternate" type="text/html" title="test" /><published>2021-05-19T00:00:00+09:00</published><updated>2021-05-19T00:00:00+09:00</updated><id>/test</id><content type="html" xml:base="/test/">&lt;p&gt;&lt;em&gt;무야호 이것은 테스트&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;이것은 테스트 입니다&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;`
+rbenv versions # 버전 확인
+gem install jekyll # Jekyll 설치하기
+Gem install budler
+`&lt;/p&gt;</content><author><name>유인선</name><email>yellowranger0904@gmail.com</email></author><summary type="html">무야호 이것은 테스트</summary></entry></feed>
