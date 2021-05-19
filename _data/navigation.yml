@@ -6,7 +6,7 @@ main:
     url: /about/ #https://mmistakes.github.io/minimal-mistakes/about/
   - title: "Tags"
     url: /tags/ #/year-archive/
-  #- title: "연도별 포스트" #"Sample Collections"
-  #   url: /collection-archive/
+  - title: "연도별 포스트" #"Sample Collections"
+     url: /post/
   # - title: "Sitemap"
   #   url: /sitemap/
